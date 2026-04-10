@@ -1,8 +1,4 @@
-export interface Conversation {
-  id: string;
-  title: string;
-  createdAt: number;
-}
+import { Conversation } from './types';
 
 export const storageKeys = {
   conversations: 'claude_conversations',
